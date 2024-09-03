@@ -1,10 +1,14 @@
 import './App.css'
+import { Header,Footer } from './components'
+import AllRoutes from './routes/AllRoutes'
 function App() {
   return (
     <>
-     <h1>code book testing</h1>
+    <Header/>
+     <AllRoutes/>
+     <Footer/>
     </>
   )
 }
-
 export default App
+
