@@ -24,11 +24,11 @@ const Header = () => {
               codebook
             </span>
           </a>
-          <div className="flex items-center space-x-6 rtl:space-x-reverse ">
-            <span className="cursor-pointer"><FiSun /></span>
-            <span className="cursor-pointer"><IoSearchOutline /></span>
-            <span className="cursor-pointer"><BsCart2/></span>
-            <span className="cursor-pointer"><FaRegUserCircle /></span>
+          <div className="flex items-center space-x-4 rtl:space-x-reverse ">
+            <span className="cursor-pointer hover:text-blue-400  "><FiSun /></span>
+            <span className="cursor-pointer hover:text-blue-400 "><IoSearchOutline /></span>
+            <span className="cursor-pointer hover:text-blue-400 "><BsCart2/></span>
+            <span className="cursor-pointer hover:text-blue-400 "><FaRegUserCircle /></span>
             
           </div>
         </div>

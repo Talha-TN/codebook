@@ -3,7 +3,7 @@ import { Route,Routes } from 'react-router-dom'
 import {HomePage,ProductList} from '../pages'
 const AllRoutes = () => {
   return (
-    <div>
+    <main>
         <Routes>
             <Route path='/' element={<HomePage/>}/>
             <Route path='/productlist' element={<ProductList/>}/>
@@ -11,7 +11,7 @@ const AllRoutes = () => {
             <Route/>
             <Route/>
         </Routes>
-    </div>
+    </main>
   )
 }
 
